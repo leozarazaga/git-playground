@@ -1,4 +1,5 @@
 console.log("Hello Wolrd");
+console.log("Let's get started");
 
 let hand = ['rock', 'paper', 'scissor']
 let computerChoice;
