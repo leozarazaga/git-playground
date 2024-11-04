@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Playground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="navbar-list">
+                <li><a href="#"><i class="github-icon fa-brands fa-github"></i></a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Git</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="header-container">
+            <div class="header-container-inner">
+                <h1>Welcome to Our Git Playground!</h1>
+                <p>Here, we boldly break things and push boundaries! This page is meant to break, embrace the chaos, and
+                    experiment freely with Git!</p>
+
+                <a href="#" class="btn">Challenge Accepted!</a>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <div class="container">
-            <p>GIT</p>
-            <p>This page is meant to be destroyed</p>
-        </div>
-
-        <h1>HEJ GÄNGET</h1>
-        <h2>Hej liza Minnelli</h2>
-        <h2>PHILIP ANDERSSON WAS HERE!! 🔥</h2>
-
-    </section>
-    <script src="script.js"></script>g
+    <main>
+        <section class="about-git">
+            <h2>What is Git?</h2>
+            <p>Git is a version control system that works like a time machine for your projects. It lets you take snapshots of your work, so if something goes wrong, you can easily go back to an earlier version and start again. This makes it safe to experiment and helps you collaborate with others by keeping track of changes and who made them.</p>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
 </body>
 </html>
